@@ -8,7 +8,7 @@ class AuthService {
   factory AuthService() => _instance;
   AuthService._internal();
 
-  static const String baseUrl = 'https://todo-backend-golang-ten.vercel.app//api';
+  static const String baseUrl = 'https://todo-backend-golang-ten.vercel.app/api';
 
   User? _currentUser;
 
